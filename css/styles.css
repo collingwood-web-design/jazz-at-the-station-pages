@@ -53,6 +53,13 @@ img {
   background: #00314c;
 }
 
+.banner-logo {
+  display: block;
+  width: min(420px, 88%);
+  height: auto;
+  margin: 0 auto 1.1rem;
+}
+
 .about {
   background: #0c71c3;
 }
