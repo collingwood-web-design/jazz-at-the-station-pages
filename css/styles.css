@@ -112,11 +112,16 @@ h1 {
   text-transform: uppercase;
 }
 
+.logo-link {
+  display: inline-block;
+  margin: 1.1rem auto 0.15rem;
+}
+
 .logo {
   display: block;
   width: 140px;
   height: auto;
-  margin: 1.1rem auto 0.15rem;
+  margin: 0 auto;
 }
 
 .btn {
