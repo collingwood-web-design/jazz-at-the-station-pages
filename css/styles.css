@@ -57,7 +57,7 @@ img {
   display: block;
   width: min(315px, 66%);
   height: auto;
-  margin: 0 auto 1.1rem;
+  margin: 0 auto 0.85rem;
 }
 
 .about {
@@ -65,33 +65,48 @@ img {
 }
 
 .banner p,
+.visit p,
 .cta-text {
-  max-width: 52rem;
-  margin: 0 auto 1rem;
+  max-width: 36rem;
+  margin: 0 auto 0.85rem;
   color: #fff;
 }
 
 .about p {
-  max-width: 52rem;
-  margin: 0 auto 0.75rem;
+  max-width: 40rem;
+  margin: 0 auto 0.65rem;
   color: #fff;
+}
+
+.about .season {
+  margin-bottom: 0.85rem;
+  color: #f5ee1e;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.about .when-where {
+  margin: 0.15rem auto 0.85rem;
+  font-size: 1.05rem;
+  font-weight: 600;
 }
 
 .about .tagline {
-  margin-top: 0.35rem;
-  font-size: 1.05rem;
+  margin-top: 0.15rem;
+  font-size: 1.02rem;
 }
 
 .about .support {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
 
 h1 {
-  max-width: 52rem;
-  margin: 0.2rem auto 0.75rem;
+  max-width: 40rem;
+  margin: 0.15rem auto 0.45rem;
   color: #fff;
-  font-size: clamp(1.7rem, 3vw, 2.15rem);
-  font-weight: 500;
+  font-size: clamp(1.35rem, 2.4vw, 1.75rem);
+  font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.01em;
   text-align: center;
@@ -100,9 +115,9 @@ h1 {
 
 .logo {
   display: block;
-  width: 165px;
+  width: 140px;
   height: auto;
-  margin: 1.25rem auto 0.25rem;
+  margin: 1.1rem auto 0.15rem;
 }
 
 .btn {
@@ -256,7 +271,12 @@ h1 {
 
 .visit {
   background: #1c184c;
-  padding: 1.6rem 1.25rem 1.3rem;
+  padding: 1.85rem 1.25rem 1.6rem;
+}
+
+.visit p {
+  margin-bottom: 0.55rem;
+  font-size: 1rem;
 }
 
 .social {
@@ -371,8 +391,16 @@ h1 {
     grid-template-columns: 1fr;
   }
 
+  .thanks-media {
+    margin-bottom: 0;
+  }
+
   .thanks-copy {
-    padding: 3rem 1.5rem;
+    padding: 2.5rem 1.35rem 3.25rem;
+  }
+
+  .sponsors {
+    margin-top: 0;
   }
 
   .hero img {
