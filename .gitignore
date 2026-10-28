@@ -2,3 +2,20 @@
 Thumbs.db
 desktop.ini
 .wrangler/
+.env
+.env.*
+
+# Site images and media are hosted on https://media.cwd-cdn.com
+images/
+logo/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.ico
+*.mp3
+*.mp4
+*.webm
+*.wav
