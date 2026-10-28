@@ -76,25 +76,24 @@ img {
   max-width: 40rem;
   margin: 0 auto 0.65rem;
   color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 .about .season {
   margin-bottom: 0.85rem;
   color: #f5ee1e;
-  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.02em;
 }
 
 .about .when-where {
   margin: 0.15rem auto 0.85rem;
-  font-size: 1.05rem;
   font-weight: 600;
 }
 
 .about .tagline {
   margin-top: 0.15rem;
-  font-size: 1.02rem;
 }
 
 .about .support {
