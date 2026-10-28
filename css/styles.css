@@ -55,7 +55,7 @@ img {
 
 .banner-logo {
   display: block;
-  width: min(420px, 88%);
+  width: min(315px, 66%);
   height: auto;
   margin: 0 auto 1.1rem;
 }
